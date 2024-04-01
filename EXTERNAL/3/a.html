@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <input type="radio" name="color" id="red" value="red" required onclick="changeBackgroundColor(this.value)"> red
+    <input type="radio" name="color" id="green" value="green" required onclick="changeBackgroundColor(this.value)"> green
+    <input type="radio" name="color" id="blue" value="blue" required onclick="changeBackgroundColor(this.value)"> blue
+
+    <script>
+        function changeBackgroundColor(color) {
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>
