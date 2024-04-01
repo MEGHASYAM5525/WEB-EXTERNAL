@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/UserDetailsServlet")
-public class UserDetailsServlet extends HttpServlet {
+public class b extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String gender = request.getParameter("gender");
         String hobby = request.getParameter("hobby");
